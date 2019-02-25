@@ -1,0 +1,252 @@
+* {box-sizing: border-box;}
+
+
+body{
+    background-image: url(../images/prism.png);
+    display: flex;
+    flex-direction: column;
+    height:98vh;
+}
+
+.maintabs{
+    background-color: white;
+    margin-bottom: 30px;
+    height:90px;
+}
+
+#ref{ 
+    position:relative;
+    top:0px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+ a{
+  text-decoration: none;
+  color:grey;
+}
+.linkedin{color:blue;
+text-decoration:underline; }
+nav{
+  float: right;
+  padding-top:40px;
+  padding-left:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+
+.wrapper {
+
+    background-color: white;
+    border-radius: 8px;
+    width: 960px;
+    padding: 30px;
+    margin: 0 auto;
+    height:auto;
+    margin-bottom:50px;
+ 
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+  }
+
+  #list{
+  font-family: Arial, Helvetica, sans-serif;
+  color:grey;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 45px;
+    color:#4aaaa5; 
+    text-align: center;
+  }
+
+.portfoliotag{
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  margin-top:150px;
+  padding:10px;
+}
+
+  #img1 {
+    float:left;
+    margin: 15px;
+    height: 150px;
+    width:150px;
+    background-image: url(../images/profile.jpg);
+  }
+  #img2 {
+    float:left;
+    margin: 15px;
+    height: 200px;
+    width:200px;
+    background-image: url(../images/portfolio1.png);
+  }
+
+  #img3 {
+    float: left;
+    margin: 15px;
+    clear:right;
+    height: 200px;
+    width:200px;
+    background-image: url(../images/portfolio2.png);
+  }
+
+  #img4 {
+    float: left;
+    clear:left;
+    margin: 15px;
+    height: 200px;
+    width:200px;
+    background-image: url(../images/portfolio3.png);
+  }
+  #img5 {
+    float: left;
+    margin: 15px;
+    clear:right;
+    height: 200px;
+    width:200px;
+    background-image: url(../images/portfolio4.jpg);
+  }
+
+  #img6 {
+    overflow: hidden;
+    clear:both;
+    margin: 15px;
+    height: 200px;
+    width:200px;
+    background-image: url(../images/portfolio5.jpg);
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+ h4{
+  float:left ;
+  font-size: xx-large;
+  color:white;
+  margin:0px;
+   font-family: 'Courier New', Courier, monospace;
+   width:auto;
+   background-color:#4aaaa5;
+   padding:27px;
+ }
+ 
+ footer {
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 8px solid #4aaaa5;
+  margin-top:auto;
+
+}
+/* Pantalla chica */
+@media screen and (max-width: 640px) {
+
+ 
+  .wrapper {
+    width: auto;
+  }
+  #ref{ 
+    width: auto;
+    height:auto;
+    background-color:transparent;}
+    #img1 {
+    
+      float:left;
+      margin: 15px;
+    }
+    p{float:left;
+  }
+  .portfoliotag{float:none;}
+h4{
+  float:top;
+  font-size:x-large;
+   width:100%;
+   clear: right;
+   text-align: center;
+   padding:2%;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+ }
+ nav{
+
+  text-align: center;
+  font-size: medium;
+  background-color:#4aaaa5;
+  padding-top:0px;
+  width:100%;
+  padding-bottom:3%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  color:white;
+  font-size: larger;
+}
+
+.maintabs{    background-color:transparent;}
+
+
+ul{
+  float:left;
+}
+
+  }
+  /* Pantalla med */
+@media screen and (min-width: 640px) and (max-width: 768px){
+
+  .wrapper {
+    width: auto;
+  }
+  #ref{ 
+    width: auto;
+}
+h4{
+  font-size: x-large;
+   width:auto;
+   height:100%;
+   padding:32px;
+ }
+ input{width:auto;}
+ nav{
+  margin-right: 5%;
+  font-size: large;
+  
+}
+}
