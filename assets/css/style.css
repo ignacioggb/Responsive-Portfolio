@@ -178,19 +178,22 @@ nav{
  
   .wrapper {
     width: auto;
+    margin: 15px;
   }
   #ref{ 
     width: auto;
     height:auto;
     background-color:transparent;}
     #img1 {
-    
-      float:left;
-      margin: 15px;
+    float:none;
+      display:block;
+     margin: auto;
     }
     p{float:left;
+ 
+
   }
-  .portfoliotag{float:none;}
+  .portfoliotag{margin:auto ; margin-top:150px; width:200px;}
 h4{
   float:top;
   font-size:x-large;
@@ -213,6 +216,14 @@ h4{
   border-bottom-right-radius: 10px;
 }
 
+#img2, #img3, #img4, #img5, #img6{
+
+  float:none;
+  display:block;
+
+  margin:30px auto;
+
+}
 
 a{
   text-decoration: none;
@@ -233,12 +244,13 @@ ul{
 
   .wrapper {
     width: auto;
+    margin: 30px;
   }
   #ref{ 
     width: auto;
 }
 h4{
-  font-size: x-large;
+  font-size:large;
    width:auto;
    height:100%;
    padding:32px;
