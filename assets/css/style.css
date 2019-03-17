@@ -85,7 +85,7 @@ nav{
     margin: 15px;
     height: 200px;
     width:200px;
-    background-image: url(../images/portfolio1.png);
+    background-image: url("https://ignacioggb.github.io/unit-4-game/assets/images/char-mario.png");
   }
 
   #img3 {
@@ -94,7 +94,7 @@ nav{
     clear:right;
     height: 200px;
     width:200px;
-    background-image: url(../images/portfolio2.png);
+    background-image: url("https://ignacioggb.github.io/Word-Guess-Game/assets/images/image011.jpg");
   }
 
   #img4 {
